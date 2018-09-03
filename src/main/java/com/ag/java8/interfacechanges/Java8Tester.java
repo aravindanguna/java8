@@ -19,6 +19,8 @@ public class Java8Tester {
 }
 
 interface Vehicle {
+
+	//It need not be always void
 	default void print() {
 		System.out.println("I am a vehicle!");
 	}
